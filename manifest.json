@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Esports-Dota2",
+    "version": "1.1.0",
+    "description": "esports book app",
+    "background": {
+        "scripts": [
+            "index.js"
+        ],
+      "persistent":true
+    },
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

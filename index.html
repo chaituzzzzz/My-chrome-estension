@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ESPORTS BOOK</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link href="./css/select2.min.css" rel="stylesheet" />
+  <script src="./js/select2.min.js"></script>  
+</head>
+<body>
+ <div class='container'> 
+  <div id="loading"></div>
+  <div id="idLogo"><h2>ESPORTS BOOK</h2></div>
+  <ul id="as" class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">TEAMS</a></li>
+    <li><a data-toggle="tab" href="#menu1">PRO MATCHES</a></li>
+    <li><a data-toggle="tab" href="#menu3">ABOUT</a></li>
+    </ul>
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <div class="text-center">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>      
+      <div id = "">
+        <br>
+        <div><div id = "idteamsHeader">Select a team</div></div>
+        <select id= "teamsDropDrown" class="js-example-basic-single" name="state">
+          <option  value="AL">NAVI</option>
+          <option value="WY">OG</option>
+          <option value="WY">WWC</option>
+        </select>
+        <br><br>
+        <table id = "playerTable">
+          <tr>
+            <th>PLAYER NAME</th>
+            <th>TOTAL GAMES</th>
+            <th>LOSS</th>
+            <th>PROFILE</th>
+          </tr>
+          <tr>
+            <td>Dendi</td>
+            <td>2400</td>
+            <td>OG</td>
+            <td><a href="https://www.opendota.com/players/3916428" data-toggle="tooltip" title="" target="_blank" data-original-title="EGM">LINK</a></td>
+          </tr>
+          <tr>
+            <td>Dendi</td>
+            <td>2400</td>
+            <td>OG</td>
+            <td>LINK</td>
+          </tr>
+          <tr>
+            <td>Dendi</td>
+            <td>2400</td>
+            <td>OG</td>
+            <td>LINK</td>
+          </tr>
+          <tr>
+            <td>Dendi</td>
+            <td>2400</td>
+            <td>OG</td>
+            <td>LINK</td>
+          </tr>
+          <tr>
+            <td>Dendi</td>
+            <td>2400</td>
+            <td>OG</td>
+            <td>LINK</td>
+          </tr>
+         
+        </table>
+        <br>
+      
+      </div>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Latest Tournaments</h3>
+      <p>This page shows the latest tournaments of DOTA 2 </p>
+      <table id = "leaugesTable">
+        <tr>
+          <th>LEAUGE NAME</th>
+          <th>RADIANT NAME</th>
+          <th>DIRE NAME</th>
+          <th>WINNER</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.opendota.com/matches/5417027615" data-toggle="tooltip" title="" target="_blank" data-original-title="EGM">Cyber.bet Cup: Spring Series - EU</a></td>
+          <td>2400</td>
+          <td>OG</td>
+          <td>LINK</td>
+        </tr>
+        <tr>
+          <td>Dendi</td>
+          <td>2400</td>
+          <td>OG</td>
+          <td>LINK</td>
+        </tr>
+        </table>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Latest Tournaments</h3>
+     
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Menu 3</h3>
+      <table id = "playerTable">
+        <tr>
+        <td>Developer</td>
+        <td>Chaitanya</td>
+        </tr>
+        <tr>
+          <td>Source</td>
+          <td>https://docs.opendota.com/</td>
+        </tr>
+        <tr>
+          <td>Github Profile</td>
+          <td>https://github.com/chaituzzzzz</td>
+        </tr>
+        
+      </table>
+  </div>
+</div>
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+  <script src="./index.js"></script>
+</div>
+</body>
+</html>
